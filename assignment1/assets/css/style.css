@@ -1,0 +1,202 @@
+body
+{
+    background-image: url("../images/cork-wallet.png");
+    background-repeat: repeat;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+ul
+{
+   list-style-type: none;
+   padding-top:30px;
+}
+.nav
+{
+ clear:both;
+}
+#main-content
+{
+  width:60%;
+  padding-left:20%;
+  padding-right:20%;
+}
+li
+{
+  float:right;
+}
+li a 
+{
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 30px 40px;
+   font-size:20px;
+   text-decoration:none;
+   background-color:white;
+   color:#ddd;
+}
+.active
+{
+  background-color:#4aaaa5;
+  padding:30px 80px;
+}
+#about-box
+{
+   margin-top:100px;
+   background-color:white;
+   color:grey;
+   float:left;
+   width:70%; 
+   padding:20px;
+  
+}
+p
+{
+  font-size: 20px;
+}
+#form-box
+{
+   margin-top:100px;
+   background-color:white;
+   color:grey;
+   float:left;
+   width:600px; 
+   padding:20px;
+}
+#portfolio-box
+{
+   margin-top:100px;
+   
+   background-color:white;
+   color:grey;
+   float:left;
+   width:65%; 
+   padding:20px;
+
+}
+#connect-box
+{
+   margin-top:100px;
+   background-color:white;
+   color:grey;
+   float:left;
+   width:20%; 
+   padding:20px;
+   margin-left:2%;
+
+}
+h1
+{
+   font-size:30px;
+   text-decoration:none;
+   color:#4aaaa5;
+   text-decoration:Bold;
+}
+h2
+{
+   font-size:20px;
+   text-decoration:none;
+   color:#4aaaa5;
+   text-decoration:Bold;
+}
+p
+{
+	font-size:20px;
+}
+#footer
+{
+	background-color:grey;
+	width:100%;
+	height:60px;
+	line-height:60px;
+	text-align: center;
+	font-size: 10px;
+	border-top:10px;
+	border-color:#4aaaa5;
+	border-style: solid;
+	margin-top:50px;
+
+}
+#clear
+{
+	clear:both;
+}
+form
+{
+	font-size:20px;
+	line-height: 30px;
+}
+.button
+{
+   background-color:#4aaaa5 ;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 2px;
+   cursor: pointer;
+   color:white;
+   font-size: 15px;
+}
+#img-box
+{
+	position:relative;
+	border:2px;
+	border-color: black;
+	border-style: solid;
+	width:38%;
+	height:230px;
+	margin:3%;
+
+
+}
+img
+{
+  height:80%;
+  width:80%;
+}
+#img-icon
+{
+  height:25%;
+  width:25%;
+}
+#label
+{
+	position: absolute;
+    top:60%;
+	background-color:#4aaaa5;
+	color: white;
+	line-height:120%;
+	font-size:180%;
+	width:100%;
+	height:20%;
+	text-align: center;
+
+}
+#txt_area
+{
+  width:40em;
+  height:15em;
+}
+
+@media only screen and (max-width: 980px) {
+#main-content
+{
+  width:980px;
+  padding-left:15%;
+  padding-right:15%;
+}
+}
+@media only screen and (max-width: 768px) {
+#main-content
+{
+  width:768px;
+  padding-left:10%;
+  padding-right:10%;
+}
+}
+@media only screen and (max-width: 640px) {
+#main-content
+{
+  width:640px;
+  padding-left:5%;
+  padding-right:5%;
+}
+}
